@@ -1,0 +1,6 @@
+name: astrbot_plugin_shsmu_schedule
+desc: 上海交大医学院教务系统课表获取
+version: 1.0.0
+author: your_name
+hint: 完成了课表读取和自动查询。
+repo: ""

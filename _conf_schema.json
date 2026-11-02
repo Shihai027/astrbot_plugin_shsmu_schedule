@@ -1,0 +1,27 @@
+{
+  "username": {
+    "description": "教务系统学号",
+    "type": "string",
+    "default": ""
+  },
+  "password": {
+    "description": "教务系统密码",
+    "type": "string",
+    "default": ""
+  },
+  "op_timeout": {
+    "description": "Playwright 单次操作超时（秒）。点击、填表、等待元素等操作的上限。网络慢或教务系统卡时调大，默认 120。",
+    "type": "int",
+    "default": 120
+  },
+  "nav_timeout": {
+    "description": "页面导航超时（秒）。goto、wait_for_load_state 等导航类操作的上限。默认 120。",
+    "type": "int",
+    "default": 120
+  },
+  "max_days": {
+    "description": "查找未来课程的最大天数。从今天往后翻页，超过这个天数仍未找到课就返回“没有课程”。默认 30。",
+    "type": "int",
+    "default": 30
+  }
+}
